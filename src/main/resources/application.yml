@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    username: root
+    password: "isilisil"
+    url: jdbc:mysql://localhost:3306/isil
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
+
+
+
+
